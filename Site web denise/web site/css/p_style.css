@@ -1,0 +1,339 @@
+/* en tete-->*/
+body{
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/acc-img3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+head{
+	margin: 0px;
+	padding: 0px;
+
+}
+.menu > .menu_l > a {
+	text-decoration: none;
+	
+
+}
+.bt1{
+	display: inline-block;
+	background-color: #f4d5a9;
+	color: #a1f44f;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: arial;
+	width: 180px;
+	padding: 14px;
+	border-radius: 50px;
+}
+.bt1:hover{
+	background-color: #865558;
+	border: 2px solid white;
+	box-shadow: 0px 0px 6px white;
+}
+
+.menu{
+	
+}
+.menu > .menu_l {
+	display: inline-block;
+	position: relative;
+	left: 27%;
+
+}
+.menu_l{
+	padding: 0px;
+	margin: 0px;
+	margin-right: 100px;
+	width: 100px;
+	color: white;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: lighter;
+	word-spacing: 5px;
+
+}
+
+/* fin en tete-->*/
+
+
+/* corps-->*/
+.sect1{
+	margin-left: 13px;
+	padding: 0px;
+	background-color: #4b1f06;
+	box-shadow: 0px 0px 12px #615b58;
+	display: inline-block;
+	width: 300px;
+	height: 460px;
+}
+
+.art1{
+	margin: 5px;
+	padding-top: 160px;
+	font-family: "verdana",arial;
+	color: white;
+	font-size: 15px;
+}
+.art1_img{
+	display: inline;
+	margin: 5px;
+	width: 120px;
+	height: 120px;
+}
+.soratra{
+	display: inline-block;
+	width: 150px;
+	position: absolute;
+	font-family: arial;
+	font-size: 16px;
+	color: white;
+}
+.sect_img{
+	position: absolute;
+}
+
+nav{
+	margin: 0px;
+	padding: 0px;
+}
+nav > .lien{
+	margin: 99px;
+	padding: 0px;
+	display: inline-block;
+	width: 80px;
+	height: 460px;
+	position: absolute;
+	top: 0px;
+	left: 1160px;
+	z-index: 1;
+
+}
+.artiste{
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	width: 1000px;
+	height: 460px;
+	position: absolute;
+	top: 100px;
+	left: 340px;
+	background-image: url(../img/acc-img3.jpg);
+	box-shadow: 10px 0px 8px #af7662;
+
+}
+.bt-art{
+	display: inline-block;
+	padding: 0px;
+	margin: 3px;
+	width: 400px;
+	height: 452px;
+	background-color: #654248;
+	box-shadow: 0px 0px 12px white;
+
+}
+.song{
+	padding: 0px;
+	display: inline-block;
+	margin:10PX;
+	background-image: url(../img/acc-img1.jpg);
+	background-size: cover;
+	position: relative;
+	top: 105px;
+	width: 380px;
+	height: 334px;
+	overflow-y: auto;
+
+}
+.song::-webkit-scrollbar{
+	width: 0px;
+}
+.maquette{
+	padding: 0px;
+	display: inline-block;
+	background-image: url(../img/acc-img.jpg);
+	background-size: cover;
+	position: absolute;
+	top: 6px;
+	left: 13px;
+	width: 380px;
+	height: 110px;
+
+}
+.cercle1{
+	padding: 0px;
+	margin: 3px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-image: url(../img/albcover.jpg);
+	background-size: contain;
+	border-radius: 50%;
+	position: relative;
+	left: 8px;
+	top: 2px;
+}
+.bio{
+	position: absolute;
+	margin: 8px;
+	display: inline-block;
+	width: 430px;
+	font-family: URW Chancery L, cursive;
+}
+/* lien-->*/
+.fb,.sd,.spot,.inst{
+	margin: 5px;
+}
+.titre{
+	display: inline-block;
+	font-size: 14px;
+	font-family: cursive;
+	z-index: 1;
+	position: absolute;
+	left: 120px;
+	color: #f6e0b9;
+}
+figcaption{
+	margin: 0px;
+	padding: 0px;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 17px;
+	color: white;
+	line-height: 30px;
+}
+#all{
+	position: relative;
+	left: -25px;
+	width: 318px;
+}
+
+/* fin lien-->*/
+
+/* dexieme formulair-->*/
+.sect2{
+	display: block;
+	overflow:hidden;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 0px;
+	background-image: url(../img/l5.png);
+	background-size: cover;
+	width: 1345;
+	height: 500px;
+	position: relative;
+	left: 0px;
+	
+}
+.f1{
+	font-family: verdana,serif;
+	font-size: 22px;
+	position: relative;
+	left: 30px;
+	display: block;
+	line-height: 44px;
+	color: #fff;
+}
+.in1{
+	display: inline-block;
+	width: 320px;
+	height: 50px;
+	border-radius: 40px;
+	position: relative;
+	left: 20px;
+}
+.c1{
+	font-family: verdana,serif;
+	font-size: 22px;
+	position: relative;
+	left: 20px;
+	display: block;
+	line-height: 44px;
+	color: #fff;
+
+}
+.titlec{
+	font-family: arial;
+	font-size: 35px;
+	color: white;
+	position: relative;
+	text-align: center;
+	top: 0px;
+}
+.fc{
+	display: inline-block;
+	width: 400px;
+	height: 150px;
+	border-radius: 17px;
+	padding: 5px;
+}
+.comentaire{
+	position: absolute;
+	top: 80px;
+	left: 50%;
+}
+.send{
+	display: inline-block;
+	width: 170px;
+	height: 60px;
+	position: absolute;
+	top: 80%;
+	left: 67%;
+
+}
+.send1{
+	margin:0px;
+	padding: 0px;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+}
+button{
+	background-color: #654248;
+}
+.send:hover{
+	background-color: #c6815a;
+	box-shadow: 0px 0px 10px white;
+}
+
+/* fin formulair-->*/
+
+/* fin corps-->*/
+
+
+/* PIED-->*/
+.foot{
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	height: 90px;
+	background-image: url(../img/acc-img1.jpg);
+	background-size: cover;
+	border-top: 5px solid #9d6358;
+}
+.inf{
+		text-decoration: none;
+		text-indent: 10px;
+
+}
+.pINF{
+	font-family: arial;
+	font-size: 15px;
+	text-decoration-style: wavy;
+	color: white;
+	list-style: none;
+}
+.cgu{
+	display: inline-block;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+}
+
+
+
+/* fin PIED-->*/
